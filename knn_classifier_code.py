@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # 1. Load the dataset
-file_name = "preprocessed_data/processed_1) iris.csv"
+file_name = "preprocessed_data\\processed_2) Stock Prices Data Set.csv"
 try:
     df = pd.read_csv(file_name)
     print(f"[INFO] Successfully loaded {file_name}")
